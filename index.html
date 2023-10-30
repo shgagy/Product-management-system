@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>System products managment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="cruds">
+ <div class="head">
+  <h2><span>c</span>ruds</h2>
+  <p>system products management</p>
+ </div>
+ <div class="inputs">
+  <input type="text" id="title" placeholder="title">
+ <div class="price-total">
+<input onkeyup="getTotal();" type="number" id="price" placeholder="price">
+<input onkeyup="getTotal();" type="number" id="taxes" placeholder="taxes">
+<input onkeyup="getTotal();" type="number" id="ads" placeholder="ads">
+<input onkeyup="getTotal();" type="number" id="discount" placeholder="discount">
+<smail id="total"> </smail>
+</div>
+<input type="number" id="count" placeholder="count">
+<input type="text" id="category" placeholder="category">
+<button id="btn">create</button>
+ </div>
+ <div class="outputs">
+  <input type="text" id="serch" placeholder="serch">
+  <div class="groupSerch">
+    <button onclick="GetSearchID(this.id)" id="serchTibtn">serch by title</button>
+    <button onclick="GetSearchID(this.id)" id="serchCabtn">serch by gategory</button>
+  </div>
+  <div id="lll">
+  
+  </div>
+  <table>
+   <thead>
+    <th><span id="yel">i</span>d</th>
+    <th>title</th>
+    <th>price</th>
+    <th>taxes</th>
+    <th>ads</th>
+    <th>discount</th>
+    <th>total</th>
+    <th>category</th>
+    <th><span>u</span>pdate</th>
+    <th><span>d</span>elete</th>
+   </thead>
+   <tbody id="tbody">
+  
+    </tbody>
+  </table>
+  
+ </div>
+</div>
+
+
+
+
+  <script src="main.js"></script>
+</body>
+</html>

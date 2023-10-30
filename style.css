@@ -1,0 +1,160 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-color: #333;
+  color: #fff;
+  text-transform: capitalize;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.cruds{
+  width: 80%;
+  margin: auto;
+}.head{
+  text-align: center;
+  margin: 5px 0px;
+  padding: 0px;
+  font-size: large;
+  text-transform: uppercase;
+}.head p{
+  color: #ffffffab;
+  font-size: 23px;
+}.head h2 span{
+  color: #b1b90e;
+}.head h2 {
+  color: #ffffffc5;
+  font-size: 35px;
+}
+
+input{
+  padding: 5px;
+  height: 40px;
+  width: 100%;
+  border: none;
+  margin: 3px 0px;
+  border-radius: 3px;
+  background-color: #222;
+  outline: none;
+  color: #fff;
+  transition: 0.6s;
+  text-transform: capitalize;
+}.price-total input{
+  width: 20%;
+}
+input:hover{
+  background-color: #111111ab;
+}input:focus{
+  transform: scale(1.06);
+  background-color: #111111de;
+}button{
+  width: 100%;
+  padding: 5px;
+  height: 40px;
+  width: 100%;
+  border: none;
+  margin: 3px 0px;
+  border-radius:9px;
+  color: #ffffffff;
+  background-color: #a78d19c7;
+  font-size: 15px;
+  text-transform: uppercase;
+  transition: 0.5s;
+  cursor: pointer;
+  text-transform: uppercase;
+}#btn:hover{
+  background-color: #a78d19f7;
+  transform: scale(1.05);
+  letter-spacing: 2px;
+}
+#total{
+  background-color: #b42b2b;
+  padding: 10px;
+  border-radius: 3px;
+  margin-left: 4px;
+}#total::before{
+  content: "total: ";
+}#total::after{
+  content: "$";
+}
+.groupSerch{
+  display: flex;
+  justify-content: space-between;
+}
+.groupSerch button{
+  text-transform: capitalize;
+  background-color: #a78d19c7;
+  width: 48%;
+  transition: 0.9s;
+}.groupSerch button:hover{
+  background-color: #a78d19f7;
+  transform: scale(1.05);
+  letter-spacing: 2px;
+}
+table{
+  width: 100%;
+}table thead{
+  font-size:  20px;
+  text-transform: uppercase;
+}table thead th{
+  padding: 10px 0px;
+  background-color: #222;
+  border-radius: 5px;
+}
+tbody{
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  
+}tbody td{
+  background-color: #222;
+  border-radius: 5px;
+}
+tbody button{
+  transition: .6s;
+  width: 94%;
+  text-transform: capitalize;
+  border-radius: none;
+  background-color: #ffffff00;
+  transition: 0.6s;
+}tbody button:hover{
+  transform: scale(1.2);
+  background-color: #9b888830;
+}
+tbody button span{
+  transition: 0.7s;
+}
+tbody button span:hover{
+  color: #f3ff08;
+}
+#totGr{
+  color:green;
+}
+#yel{
+  color: #b1b90e;
+}#boxEm{
+position: fixed;
+background-color: #222;
+width: 80%;
+height: 30.1%;
+border-radius: 10px;
+margin: 0px;
+}#Emp {
+  position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%,-50%);
+color:#ffffff7b;
+}
+#Emp span {
+  color:#b0b90ea4;
+}
+#h{
+  background-color: #7d5229f7;
+text-transform: capitalize;
+}
+#h:hover{
+  background-color: #895e36fb;
+  transform: scale(1.05);
+  letter-spacing: 2px;
+}
